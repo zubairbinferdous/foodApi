@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> kanye West Quotes</title>
+    <style>
+        p{
+            font-size: 35px;
+            text-transform: capitalize;
+        }
+
+        #all_country{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+           
+        }
+
+        #all_country div{
+            background-color: rgba(44, 44, 44, 0.199);
+            width: 30%;
+            color: rgb(31, 31, 30);
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 40px;
+            font-size: 25px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        #all_country div img {
+            width: 350px;
+            height: 200px;
+        }
+
+        #displayCountry{
+            background-color: cadetblue;
+            width: 450px;
+            height: 300px;
+            padding:30px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>kanye famous quotes</h1>
+    <div id="quotes"></div>
+    <button onclick="callQuote()"> call quote </button>
+    <h1>user information</h1>
+    <h2>name : <span id="user"></span></h2>
+    <h2>gender : <span id="gender"></span></h2>
+    <h1>Country name</h1>
+    <section id="displayCountry">
+
+    </section>
+    <section>
+        <div id="all_country">
+           
+        </div>
+    </section> 
+
+
+
+
+
+    <!-- <button onclick="loadUser()"> call user </button> -->
+    <script src="./index.js"></script>
+</body>
+</html>
